@@ -2,12 +2,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const contenedor = document.getElementById("terminal-cuerpo-perfil");
     if (!contenedor) return;
 
-    const lineas = [
-        { comando: "cat perfil.txt", salida: "" },
-        { comando: "", salida: "ubicacion: Estado de México, México" },
-        { comando: "", salida: "especialidad: Desarrollo Java Full-Stack" },
-        { comando: "", salida: "objetivo: Crecer como desarrollador profesional" }
-    ];
+const lineas = [
+    { comando: "cat perfil.txt", salida: "" },
+    {
+        comando: "",
+        salida: "Ubicacion: Tecámac, Estado de México, México"
+    },
+    {
+        comando: "",
+        salida: "Gracias por leer :)"
+    }
+];
 
     const prefiereMenosMovimiento = window.matchMedia(
         "(prefers-reduced-motion: reduce)"
