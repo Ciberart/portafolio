@@ -854,7 +854,14 @@ section {
 
     .inicio {
         flex-direction: column;
+        align-items: center;
         text-align: center;
+    }
+
+    .foto-portafolio{
+        align-self: center;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .acciones-inicio,
@@ -891,6 +898,15 @@ section {
 }
 
 @media (max-width: 650px) {
+
+    .foto-portafolio{
+        width: 100%;
+        max-width: 340px;
+        min-width: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
     .boton-pequeno {
         display: none;
     }
